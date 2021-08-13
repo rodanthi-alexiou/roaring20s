@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yomogi&display=swap');
+  
+  body {
+    font-family: 'Otomanopee One', sans-serif;
+    padding: 10px;
+    background: #ecc0c2;
+    color: #ffffff;
+    
+  }
+
+  .box {
+    border: 5px solid #9783a1;
+  }
+
+  .bookpost{
+    font-family: 'Otomanopee One', sans-serif;
+    padding: 10px;
+    background: radial-gradient(circle, rgba(65,67,66,1) 6%, rgba(212,126,124,1) 94%, rgba(157,134,140,1) 100%);
+    color: #462c3c;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    color: #a32646;
+  }
+
+  .header h6 {
+    color: #6b724e;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #a32646;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #36212142;
+    color: #362121;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    padding-right: 30px;
+  }
+
+  .leftcolumn_post {   
+    float: left;
+    width: 75%;
+    padding-right: 30px;
+  }
+
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  .wrapper {
+
+    display:inline-flex;
+ 
+  }
+  
+  .item {
+
+      margin-left: 5%;
+  }
+
+  .card_grid {
+  display: inline-block;
+  width: 90%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid #9783a14f;
+}
+
+.book_grid {
+  display: inline-block;
+  width: 90%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+  .grid {
+    column-gap: 5px;
+    column-count: 3;
+    padding: 100px 20px 10px 20px;
+  }
+  
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #3a271b5d;
+    padding: 10px;
+    margin-top: 60px;
+    box-shadow: rgb(87, 50, 9) 0px 0px 0px 2px inset, #EFE2BA 10px -10px 0px -3px, #6b724e 10px -10px, #EFE2BA 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, #EFE2BA 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, #EFE2BA 40px -40px 0px -3px, #924431 40px -40px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
