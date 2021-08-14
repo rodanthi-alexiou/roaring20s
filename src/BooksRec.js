@@ -8,8 +8,8 @@
       <body>
       
                     <div class="topnav">
-                    <a href="/">Home</a>
-                    <a href="/jams">Jams</a>
+                    <a href="/roaring20s/">Home</a>
+                    <a href="/roaring20s/jams">Jams</a>
                     <a >Coffee Space</a>
                   </div>
   
