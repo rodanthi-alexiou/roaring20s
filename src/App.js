@@ -28,7 +28,7 @@ function App() {
                           <div class="topnav">
                           <a href="/booksrec">Book Recs</a>
                           <a href="/jams">Jams</a>
-                          <a >Coffee Space</a>
+                          <a>Coffee Space</a>
                         </div>
         
                           <div class="header">
