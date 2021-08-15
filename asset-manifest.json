@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/roaring20s/static/css/main.e5ac11fe.chunk.css",
-    "main.js": "/roaring20s/static/js/main.159d032a.chunk.js",
-    "main.js.map": "/roaring20s/static/js/main.159d032a.chunk.js.map",
+    "main.js": "/roaring20s/static/js/main.b1216457.chunk.js",
+    "main.js.map": "/roaring20s/static/js/main.b1216457.chunk.js.map",
     "runtime-main.js": "/roaring20s/static/js/runtime-main.96fb20b9.js",
     "runtime-main.js.map": "/roaring20s/static/js/runtime-main.96fb20b9.js.map",
     "static/js/2.f55cbc3d.chunk.js": "/roaring20s/static/js/2.f55cbc3d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.96fb20b9.js",
     "static/js/2.f55cbc3d.chunk.js",
     "static/css/main.e5ac11fe.chunk.css",
-    "static/js/main.159d032a.chunk.js"
+    "static/js/main.b1216457.chunk.js"
   ]
 }
