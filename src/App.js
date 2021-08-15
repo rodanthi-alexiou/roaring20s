@@ -18,7 +18,7 @@ function App() {
 
     
                 
-                <Router>
+                <Router >
 
                 <Switch>
                   <Route
