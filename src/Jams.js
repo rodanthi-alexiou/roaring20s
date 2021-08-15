@@ -1,5 +1,6 @@
 import './layout.css';
 import Playlist from './Playlist'
+import {Link } from "react-router-dom";
   
   
   function Jams() {
@@ -7,9 +8,9 @@ import Playlist from './Playlist'
       <body>
   
                     <div class="topnav">
-                    <a href="/">Home</a>
-                    <a href="/booksrec">Books Rec</a>
-                    <a >Coffee Space</a>
+                    <Link to="/booksrec">Book Recs</Link>
+                    <Link to="/">Home</Link>
+                    <Link>Coffee Space</Link>
                   </div>
   
                     <div class="header">

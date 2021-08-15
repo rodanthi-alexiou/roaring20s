@@ -3,6 +3,7 @@ import {
   Switch,
   Route,
   HashRouter,
+  Link,
 } from "react-router-dom";
 
 import './layout.css';
@@ -16,7 +17,7 @@ import BookPost from './BookPost'
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
     <Switch>
     <Route
       exact
@@ -27,9 +28,10 @@ function App() {
             
             <div class="box">
             <div class="topnav">
-            <a href="/#/booksrec">Book Recs</a>
-            <a href="/jams">Jams</a>
-            <a>Coffee Space</a>
+            <Link to="/booksrec">Book Recs</Link>
+            <Link to="/jams">Jams</Link>
+            <Link>Coffee Space</Link>
+            
           </div>
 
             <div class="header">
@@ -47,7 +49,7 @@ function App() {
 
 
 
-    <Route path="/#/booksrec" component={BooksRec}/>
+    <Route path="/booksrec" component={BooksRec}/>
     <Route path="/jams" component={Jams}/>
     <Route path="/bookpost" component={BookPost}/>
   </Switch>     

@@ -1,16 +1,16 @@
 
   import './layout.css';
   import Book from './BookPhoto'
-  
+  import {Link } from "react-router-dom";
   
   function BooksRec() {
     return (
       <body>
       
                     <div class="topnav">
-                    <a href="/roaring20s/">Home</a>
-                    <a href="/roaring20s/jams">Jams</a>
-                    <a >Coffee Space</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/jams">Jams</Link>
+                    <Link>Coffee Space</Link>
                   </div>
   
                     <div class="header">
