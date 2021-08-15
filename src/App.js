@@ -47,7 +47,7 @@ function App() {
 
 
 
-    <Route path="/booksrec" component={BooksRec}/>
+    <Route path="/#/booksrec" component={BooksRec}/>
     <Route path="/jams" component={Jams}/>
     <Route path="/bookpost" component={BookPost}/>
   </Switch>     
