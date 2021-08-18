@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "https://rodanthi-alexiou.github.io/roaring20s",
   "dependencies": {
+    "@azure/cosmos": "^3.13.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "express": "^4.17.1",
     "git": "^0.1.5",
     "hash-router": "^0.4.0",
     "react": "^17.0.2",

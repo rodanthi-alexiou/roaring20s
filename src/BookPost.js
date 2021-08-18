@@ -1,22 +1,24 @@
 import './layout.css';
+import {Link } from "react-router-dom";
 
 export default function BookPost(props){
     return(
+
         <body>
   
         <div class="topnav">
-        <a href="/">Home</a>
-        <a href="/jams">Jams</a>
-        <a >Coffee Space</a>
+        <Link to="/">Home</Link>
+        <Link to="/jams">Jams</Link>
+        <Link >Coffee Space</Link>
       </div>
 
-        <div class="header">
+        <div class="bookpost_header">
           <h1>100 Years of Solitude - Sad?</h1>
         </div>
 
         <div class="leftcolumn_post">
           
-          <h5>Earlier this year I made my first visit to Colombia. During my stay, I became familiar with many of the emblems around which this wonderful nation’s image revolves. There is of course the coffee, some of the best in the world and perhaps primarily known to Americans by the mustachioed Juan Valdez. There are also the ancient indigenous civilizations, whose exquisite artifacts you will see in museums everywhere. Then there is the world-famous painter Fernando Botero, who has adapted his unique style to depict countless national icons, as well as the torture practiced by US soldiers at Iraq’s Abu Ghraib prison. And most of all, towering over the rest, is Colombia’s most beloved author, Gabriel García Márquez.
+          <h5 class="bookpost_body">Earlier this year I made my first visit to Colombia. During my stay, I became familiar with many of the emblems around which this wonderful nation’s image revolves. There is of course the coffee, some of the best in the world and perhaps primarily known to Americans by the mustachioed Juan Valdez. There are also the ancient indigenous civilizations, whose exquisite artifacts you will see in museums everywhere. Then there is the world-famous painter Fernando Botero, who has adapted his unique style to depict countless national icons, as well as the torture practiced by US soldiers at Iraq’s Abu Ghraib prison. And most of all, towering over the rest, is Colombia’s most beloved author, Gabriel García Márquez.
 
           There is an oft-told anecdote that cuts to the heart of this writer’s greatness. As he wrote One Hundred Years of Solitude, he would regularly meet with his fellow great Colombian author Álvaro Mutis, updating Mutis on his progress by narrating the latest events from his novel. There was just one problem: none of what García Márquez told Mutis actually occurs in the book. He had effectively made up an entire shadow-novel while in the middle of writing one of the most imaginative and jam-packed books in the history of modern literature. This is a measure of how many competing realities existed in García Márquez’s voracious mind.
           

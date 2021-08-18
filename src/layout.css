@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap');
   
   body {
     font-family: 'Otomanopee One', sans-serif;
@@ -18,11 +19,20 @@
     border: 5px solid #9783a1;
   }
 
-  .bookpost{
-    font-family: 'Otomanopee One', sans-serif;
-    padding: 10px;
-    background: radial-gradient(circle, rgba(65,67,66,1) 6%, rgba(212,126,124,1) 94%, rgba(157,134,140,1) 100%);
-    color: #462c3c;
+
+
+  .bookpost_header{
+    font-size: 30px;
+    color: #a32646;
+    background: #462c3c;
+    text-align: center;
+  }
+
+  .bookpost_body{
+    font-size: 15px;
+    background: #462c3c48;
+    color: #a3264570;
+    font-family: 'Mukta', sans-serif;
   }
   
   /* Header/Blog Title */
@@ -117,6 +127,7 @@
     column-gap: 5px;
     column-count: 3;
     padding: 100px 20px 10px 20px;
+    flex-wrap: wrap;
   }
   
   
