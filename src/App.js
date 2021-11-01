@@ -10,6 +10,7 @@ import './layout.css';
 import Jams from "./Jams"
 import BooksRec from "./BooksRec"
 import BookPost from './BookPost'
+import CoffeeSpace from './CoffeeSpace'
 
 
 
@@ -29,7 +30,7 @@ function App() {
             <div class="topnav">
             <Link to="/booksrec">Book Recs</Link>
             <Link to="/jams">Jams</Link>
-            <Link>Coffee Space</Link>
+            <Link to="/coffeespace">Coffee Space</Link>
             
           </div>
 
@@ -51,6 +52,7 @@ function App() {
     <Route path="/booksrec" component={BooksRec}/>
     <Route path="/jams" component={Jams}/>
     <Route path="/bookpost" component={BookPost}/>
+    <Route path="/coffeespace" component={CoffeeSpace}/>
   </Switch>     
   </HashRouter>
   );

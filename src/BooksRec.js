@@ -10,7 +10,7 @@
                     <div class="topnav">
                     <Link to="/">Home</Link>
                     <Link to="/jams">Jams</Link>
-                    <Link>Coffee Space</Link>
+                    <Link to="/coffeespace">Coffee Space</Link>
                   </div>
   
                     <div class="header">

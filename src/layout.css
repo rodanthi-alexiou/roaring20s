@@ -28,6 +28,12 @@
     text-align: center;
   }
 
+  
+  .bookpost_image{
+    font-size: 30px;
+    text-align: center;
+  }
+
   .bookpost_body{
     font-size: 15px;
     background: #462c3c48;
